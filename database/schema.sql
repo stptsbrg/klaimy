@@ -641,6 +641,6 @@ INSERT INTO currencies (code, name, symbol, exchange_rate) VALUES
 
 -- Super Admin par défaut
 INSERT INTO super_admins (email, password_hash, name) VALUES
-('admin@klaimy.com', '$argon2id$v=19$m=65536,t=4,p=1$placeholder', 'Super Admin');
+('admin@klaimy.com', '$argon2id$v=19$m=65536,t=4,p=1$SDhXNkJpYkloZW5jc0NhYQ$oITaP88Rt5I3wgEDNfeafOs/HPjEsizYlHP07Q4Xt/I', 'Super Admin');
 
 SET FOREIGN_KEY_CHECKS = 1;
