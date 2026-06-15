@@ -105,7 +105,7 @@ CREATE TABLE users (
     last_login_at TIMESTAMP NULL,
     last_activity_at TIMESTAMP NULL,
     two_factor_required TINYINT(1) NOT NULL DEFAULT 0,
-    two_factor_code VARCHAR(6),
+    two_factor_code VARCHAR(255),
     two_factor_expires_at TIMESTAMP NULL,
     password_reset_token VARCHAR(100),
     password_reset_expires_at TIMESTAMP NULL,
